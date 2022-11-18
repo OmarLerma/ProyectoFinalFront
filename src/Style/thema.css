@@ -1,0 +1,25 @@
+html [data-theme=ligth]{
+	--pokename: #000;
+	--cardborder: #fff;
+	--pokenumber: hsl(228, 28%, 20%);
+	--info: #fff;
+	--bgcolor: none;
+}
+
+html[data-theme=dark] {
+	--pokename: hsl(228, 28%, 20%);
+	--cardborder: hsl(228, 28%, 20%);
+	--pokenumber: hsl(228, 28%, 20%);
+	--info: hsl(228, 28%, 20%);
+	--bggradient: none;
+	--bgcolor: #16171f;
+}
+
+
+button{
+	flex: auto;	
+}
+tarjeta{
+	flex: auto;
+	display: flex;
+}
